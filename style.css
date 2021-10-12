@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(255, 255, 122);
+}
+
+p{
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.clear{
+    font-size: 22px;
+}
+
+h1{
+    background-color: lawngreen;
+    padding: 10px;
+}
+
+#showsketch{
+    float:right;
+}
+
+canvas{
+    border: 2px solid rgb(241, 255, 180);
+    border-radius: 20px;
+    margin-top: 40px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 50px grey;}
+    to{box-shadow: 1px 1px 50px white;}
+}
